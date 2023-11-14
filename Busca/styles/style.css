@@ -1,0 +1,40 @@
+#gatinhos {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+
+#marcas{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    width: auto;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 40px; 
+
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+    border-top: 2px solid gray;
+    text-align: center;
+}
+
+.quadro{
+    background-color: rgba(128, 128, 128, 0.404);
+    width: auto;
+    border-radius: 20px;
+    list-style: none;
+    /* border: 2px solid red; */
+}
